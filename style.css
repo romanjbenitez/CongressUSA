@@ -1,0 +1,97 @@
+main {
+  min-height: 90vh;
+}
+
+.container-fluid {
+  background-color: #d8d8d8;
+  padding: 1rem;
+}
+
+.header {
+  background-color: #B22234;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.footer {
+  background-color: #260eff;
+  color: aliceblue;
+}
+.botones {
+  width: auto;
+  margin-right: 0.5rem;
+}
+.contenedor-botones {
+  display: flex;
+}
+.pointer {
+  cursor: pointer !important;
+}
+a{
+  color: white !important;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+a:hover{
+  color:  black !important;
+}
+
+.white{
+  color: aliceblue !important;
+}
+.dropdown-menu{
+  background-color: black !important;
+}
+@media screen and (max-width: 540px) {
+  .contenedor-botones {
+    flex-direction: column;
+  }
+}
+
+.navbar-toggler {
+  border: solid 2px aliceblue;
+  color: aliceblue;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.br{
+  padding: 0;
+  height: 2px;
+  background-color: #a1a1a1;
+  border-color: #a1a1a1;
+}
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0) transparent rgb(0, 0, 0) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.preloader{
+  min-height: 20rem;
+}
